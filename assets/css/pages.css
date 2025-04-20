@@ -1,0 +1,39 @@
+body {
+    padding-top: 60px;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    font-family: arial;
+}
+
+.modelos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.imagem {
+    display: flex;
+    align-items: center;
+}
+  
+.imagem img {
+    width: 200px;
+    height: auto;
+    margin-right: 100px;
+}
+  
+.imagem p{
+    font-size: 18px;
+    font-weight: arial;
+    color: black;
+}
+
+.descricao p{
+    display: flex;
+    flex-direction: column;
+
+}
+  
